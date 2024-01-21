@@ -1,0 +1,3 @@
+C:/Users/minef/Documents/CODING/cpp/A2-GP-GeometryWar/cmake-build-debug/CMakeFiles/A2_GP_GeometryWar.dir
+C:/Users/minef/Documents/CODING/cpp/A2-GP-GeometryWar/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/minef/Documents/CODING/cpp/A2-GP-GeometryWar/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Entities">
+      <UniqueIdentifier>{b1a65c0d-ff6e-430d-b71f-fb4cf6b8dcd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Entities">
+      <UniqueIdentifier>{0690f9cc-6448-46e4-a467-f4261bf73ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\States">
+      <UniqueIdentifier>{241a2bcc-255d-44de-bbce-625db5bbfbc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Particles">
+      <UniqueIdentifier>{dd349716-5e8a-4783-b755-3654e9d8827e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Particles">
+      <UniqueIdentifier>{f2a10669-01d4-4bc0-a52d-2c6f509ebec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Managers">
+      <UniqueIdentifier>{a562c18b-b8de-418e-8a44-6c599071f07b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Managers">
+      <UniqueIdentifier>{0e1b19ea-db9f-4e69-bad3-ab4f65674a37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\Bullet.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\DrawableEntity.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\Foe.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\LinearFoe.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\Player.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\LinearShootingFoe.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\UpgradeBox.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\NonLinearFoe.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Spawnpoint.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\MenuState.cpp">
+      <Filter>Fichiers sources\States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\DeathState.cpp">
+      <Filter>Fichiers sources\States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\GameState.cpp">
+      <Filter>Fichiers sources\States</Filter>
+    </ClCompile>
+    <ClCompile Include="src\particles\Particle.cpp">
+      <Filter>Fichiers sources\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\particles\ParticleCompound.cpp">
+      <Filter>Fichiers sources\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\particles\ParticleSystem.cpp">
+      <Filter>Fichiers sources\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EnemySpawner.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UpgradeBoxSpawner.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WaveManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\Boss1.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\entities\DrawableEntity.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\Entites.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\Player.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\Bullet.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\Foe.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\LinearFoe.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\LinearShootingFoe.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\UpgradeBox.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\NonLinearFoe.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enum.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spawnpoint.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\states\States.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\particles\Particle.h">
+      <Filter>Fichiers d%27en-tête\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\particles\ParticleCompound.h">
+      <Filter>Fichiers d%27en-tête\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\particles\ParticleSystem.h">
+      <Filter>Fichiers d%27en-tête\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EnemySpawner.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UpgradeBoxSpawner.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WaveManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\Boss1.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\logo.jpg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
